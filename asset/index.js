@@ -7,7 +7,7 @@ define([],function(){
     	setInterval(function(){
     		//var $items=$('ul.logos>li',$mod);
     		//$('ul.logos>li:last-child',$mod).prependTo($('ul.logos'))
-    		//_this.scroll($mod,++currentIndex);
+    		_this.scroll($mod,++currentIndex);
 
     	},3000)
     },
