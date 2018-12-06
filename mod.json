@@ -3,10 +3,7 @@
   "name": "amazon-cross",
   "apiDependencies": [
   {
-    "name": "ui-entry"
-  },
-  {
-    "name": "ui-imglist"
+    "name": "ui-sale"
   }
 ]
 }
