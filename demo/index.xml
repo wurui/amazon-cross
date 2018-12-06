@@ -15,6 +15,7 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
+        
         <ui-sale>
             <i>
                 <img>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj9mzTjouwic2tRwkj2Agdb-1000.png</img>
@@ -64,13 +65,14 @@
                 <href>#6</href>
                 <slogan>小身材大容量　伴你一路顺风</slogan>
             </i>
+            
             <i>
-                <img>http://i.oxm1.cc/uploads/git/wurui/img/29uejvas8Tjoxt6axkReekdA1d22-750.jpg</img>
-                <orig_price>48</orig_price>
-                <price>35</price>
-                <title>很好的车厘子100g</title>
-                <href>#7</href>
-                <slogan>原产地直供　空运20小时到达</slogan>
+               <img>http://i.oxm1.cc/uploads/git/wurui/img/29u0fupehTjpbx6wbbRkizlA7nv-1000.jpg</img>
+               <orig_price>780</orig_price>
+                <price>365</price>
+                <title>OPee男式牛工装裤</title>
+                <href>#6</href>
+                <slogan>版型宽大　尽显工装风采</slogan>
             </i>
         </ui-sale>
 

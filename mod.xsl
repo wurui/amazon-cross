@@ -5,7 +5,8 @@
         	<xsl:variable select="data/ui-sale/i" name="list"/>
         	<xsl:variable select="count($list)" name="count"/>
         	
-        	<xsl:variable select="format-number($count div 2,'#') " name="total_layer"/>
+        	<xsl:variable select="format-number(($count + 1) div 2,'#') " name="total_layer"/>
+        	<!-- 相当于四舍五入 -->
         	
 
 
@@ -21,7 +22,7 @@
 	            	<xsl:variable name="layer">
 	            		<xsl:choose>
 	            			<xsl:when test="$index &lt; $total_layer"><xsl:value-of select="$index"/></xsl:when>
-	            			<xsl:otherwise><xsl:value-of select="$total_layer - $index mod $total_layer - 1"/></xsl:otherwise>
+	            			<xsl:otherwise><xsl:value-of select="$count - $index"/></xsl:otherwise>
 	            		</xsl:choose>
 	            	</xsl:variable>
 	            	
